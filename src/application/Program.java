@@ -21,6 +21,8 @@ public class Program {
 
         SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 
+        //Parte 1: Registro de Cliente
+        
         System.out.println("Entre com os dados do cliente: ");
         System.out.print("Nome: ");
         String name = sc.nextLine();
@@ -30,6 +32,8 @@ public class Program {
         Date birthDate = sdf1.parse(sc.next());
         Client client = new Client(name, email, birthDate);
 
+        //Parte 2: Registro de pedido
+        
         System.out.println("Dados do pedido:");
         System.out.println("Status: ");
         OrderStatus status = OrderStatus.valueOf(sc.next());
