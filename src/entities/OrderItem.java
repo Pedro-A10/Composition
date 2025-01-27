@@ -39,8 +39,6 @@ public class OrderItem {
     public void setProduct(Product product) {
         this.product = product;
     }
-
-    //Parte 3: Calculo para o subtotal
     
     public double subTotal() {
         return price * quantity;
