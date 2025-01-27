@@ -40,6 +40,8 @@ public class OrderItem {
         this.product = product;
     }
 
+    //Parte 3: Calculo para o subtotal
+    
     public double subTotal() {
         return price * quantity;
     }
